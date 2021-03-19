@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "description": "<h1 align=\"center\">Backend Ruby Challenge</h1> <div align=\"center\">   <div>     <a style=\"margin-right: 8px;\" href=\"https://github.com/kelkoo-services/kelisto-backend-ruby-challenge/pulls\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square\" /></a>   </div>   </br> </div>",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "mocha": "^8.3.2"
+  },
   "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "execute": "node ./src/prompt.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mariana0pachon/kelisto-backend-ruby-challenge.git"
